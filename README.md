@@ -26,7 +26,7 @@ var bestStudent = Json.Deserialize<Student>(bestStudentJson);
 
 Console.WriteLine($"Student: {bestStudent.Name}"); // logs "Student: Albert"
 Console.WriteLine($"Level: {bestStudent.Level}"); // logs "Level: Advanced"
-Console.WriteLine($"Birthday: {bestStudent.DateOfBirth.ToString("dd/MM/yyyy")}"); // logs "Birthday: Birthday: 03/08/1992"
+Console.WriteLine($"Birthday: {bestStudent.DateOfBirth.ToString("dd/MM/yyyy")}"); // logs "Birthday: 03/08/1992"
 ```
 ### Using Cable on the server with POST handler
 here we deserialize the incoming JSON to a concrete object on the server and return (echo) the subjects back:
